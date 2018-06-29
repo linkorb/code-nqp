@@ -1,0 +1,10 @@
+networq:core:node:
+  name: LinkORB Code Repository Base Requirement Pack
+networq:requirement:requirement: ~
+networq:requirement:list:
+  requirements:
+    - linkorb:code:repository-readme
+    - linkorb:code:repository-readme-footer
+    - linkorb:code:repository-readme-license
+    - linkorb:code:repository-license
+    - linkorb:code:repository-gitignore

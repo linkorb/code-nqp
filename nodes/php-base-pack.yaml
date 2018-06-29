@@ -1,0 +1,11 @@
+networq:core:node:
+  name: LinkORB PHP Base Requirement Pack
+networq:requirement:requirement: ~
+networq:requirement:list:
+  requirements:
+    - networq:php:psr-0
+    - networq:php:psr-1
+    - networq:php:psr-2
+    - networq:php:psr-4
+    - linkorb:code:repository-pack
+    # - linkorb:code:composer-pack

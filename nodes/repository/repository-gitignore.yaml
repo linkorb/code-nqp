@@ -1,0 +1,29 @@
+networq:core:node:
+  name: .gitignore file
+  description: 
+  details: |
+    * The .gitignore file should only list relevant entries.
+      These specific rules can be defined in your local machine's global .gitignore file
+      * No editor specific entries like `.settings/`, `c9`, etc
+      * No OS specific entries like `.DS_Store`, `._*`, `.Trash-*`, `*~`, etc
+      * No language specific entries if that language is not used in this repository
+
+    
+    Example:
+
+    ```ini
+    vendor/
+    build/
+    ```
+    
+networq:requirement:requirement:
+  instruction: Code repository must contain valid .gitignore file
+
+networq:resource:list:
+  resources:
+    ~man:
+      networq:core:node:
+        name: .gitignore man page (documentation)
+        url: https://git-scm.com/docs/gitignore
+      networq:resource:resource:
+        type: documentation

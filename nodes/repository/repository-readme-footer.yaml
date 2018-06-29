@@ -1,0 +1,19 @@
+networq:core:node:
+  name: README.md footer
+  description: 
+  url: 
+  details: |
+    All LinkORB Code repositories contain the following standard footer:
+
+    ```markdown
+    ## Brought to you by the LinkORB Engineering team
+
+    <img src="http://www.linkorb.com/d/meta/tier1/images/linkorbengineering-logo.png" width="200px" /><br />
+    Check out our other projects at [linkorb.com/engineering](http://www.linkorb.com/engineering).
+
+    Btw, we're hiring!
+    ```
+
+networq:requirement:requirement:
+  instruction: All README.md files contain the standard LinkORB Footer
+ 

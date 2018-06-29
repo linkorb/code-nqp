@@ -1,0 +1,37 @@
+networq:core:node:
+  name: Template record IDs
+  description: 
+  details: |
+    When a table with columns like "id", "username", "display name" contain
+    more than one unique column (in this case, say that both `id` and `username` are unique),
+    only show the field that is useful for the use-case.
+
+    In this case, don't show the "id" column, because "username" is already unique, and more
+    relevant to the user.
+
+    Other examples:
+
+    * When a row has "id", "reference", the "reference" is unique and useful, so don't show the "id".
+    * When a row has "id" and "xuid", only show the "xuid".
+
+
+
+    
+    Example:
+
+    ```ini
+    vendor/
+    build/
+    ```
+    
+networq:requirement:requirement:
+  instruction: Code repository must contain valid .gitignore file
+
+networq:resource:list:
+  resources:
+    ~man:
+      networq:core:node:
+        name: .gitignore man page (documentation)
+        url: https://git-scm.com/docs/gitignore
+      networq:resource:resource:
+        type: documentation

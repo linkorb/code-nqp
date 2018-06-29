@@ -1,0 +1,16 @@
+networq:core:node:
+  name: LICENSE file
+  description: 
+  details: |
+    * The filename should be `LICENSE`, not `LICENSE.md`, `license`, `LICENSE.txt`, etc.
+
+    Example:
+
+    ```markdown
+    ## License
+
+    MIT. Please refer to the [license file](LICENSE) for details.
+    ```
+
+networq:requirement:requirement:
+  instruction: Code repository must contain valid LICENSE file

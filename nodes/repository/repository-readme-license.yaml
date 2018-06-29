@@ -1,0 +1,7 @@
+networq:core:node:
+  name: README.md license
+  description: 
+  details:
+
+networq:requirement:requirement:
+  instruction: The README.md file must mention the license of the repository AND contain a link to the LICENSE file.

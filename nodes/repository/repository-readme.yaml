@@ -1,0 +1,5 @@
+networq:core:node:
+  name: README.md file
+  description: 
+networq:requirement:requirement:
+  instruction: Code repository must contain valid README.md file
